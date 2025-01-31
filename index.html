@@ -39,6 +39,8 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              "color-primary": "#179800;",
+              "bg-secondary": "#EFEBE3;",
             },
           },
         },
@@ -46,19 +48,35 @@
     </script>
   </head>
   <body class="font-sora">
-    <header>
-      <nav>
-        <div class="">
-          <img src="images/logo-header.png" alt="" />
+    <header class="bg-gradient-to-br from-[#FFFFFF] to-[#EFEBE3]">
+      <nav
+        class="md:container md:mx-auto border border-b-color-primary lg:border-none"
+      >
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="">
+              <img class="w-full" src="images/logo-header.png" alt="" />
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-xl">
+              <li><a>Product</a></li>
+              <li><a>Services</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="hidden gap-4 lg:flex justify-center items-center">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <a class="btn w-28 border border-color-primary">Login</a>
+              <a class="btn bg-color-primary text-white w-36">Register</a>
+            </div>
+            <div class="lg:hidden">
+              <i class="text-2xl text-color-primary fa-solid fa-bars"></i>
+            </div>
+          </div>
         </div>
-        <div class="">
-          <ul>
-            <li>Product</li>
-            <li>Services</li>
-            <li>Contact us</li>
-          </ul>
-        </div>
-        <div class=""></div>
       </nav>
     </header>
     <main></main>
