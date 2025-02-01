@@ -40,7 +40,7 @@
             colors: {
               clifford: "#da373d",
               "color-primary": "#179800;",
-              "bg-secondary": "#EFEBE3;",
+              "color-secondary": "#EFEBE3;",
             },
           },
         },
@@ -70,7 +70,9 @@
             <div class="hidden gap-4 lg:flex justify-center items-center">
               <i class="fa-solid fa-magnifying-glass"></i>
               <i class="fa-solid fa-cart-shopping"></i>
-              <a class="btn w-28 border border-color-primary bg-transparent">Login</a>
+              <a class="btn w-28 border border-color-primary bg-transparent"
+                >Login</a
+              >
               <a class="btn bg-color-primary text-white w-36">Register</a>
             </div>
             <div class="lg:hidden">
@@ -107,7 +109,67 @@
     </header>
 
     <!-- ---------------main section part-------------------- -->
-    <main></main>
+    <main>
+      <!-- services section -->
+      <section class="container mx-auto px-5 md:px-0 py-16 lg:py-24">
+        <h2 class="text-4xl font-semibold text-color-primary mb-10">
+          Services
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <!-- card 1 -->
+          <div class="card w-full bg-color-secondary w-96">
+            <figure class="px-10 pt-10">
+              <img
+                src="images/service.png"
+                alt=""
+                class="rounded-[50%] p-4 bg-white"
+              />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">24/7 Services</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card w-full bg-color-secondary w-96">
+            <figure class="px-10 pt-10">
+              <img
+                src="images/delivery.png"
+                alt=""
+                class="rounded-[50%] p-4 bg-white"
+              />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Fast Delivery</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card w-full bg-color-secondary w-96">
+            <figure class="px-10 pt-10">
+              <img
+                src="images/healthy.png"
+                alt=""
+                class="rounded-[50%] p-4 bg-white"
+              />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Healthy Products</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
