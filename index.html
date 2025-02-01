@@ -55,8 +55,13 @@
       >
         <div class="navbar">
           <div class="navbar-start">
-            <div class="">
-              <img class="w-full" src="images/logo-header.png" alt="" />
+            <div class="cursor-pointer">
+              <img class="lg:hidden" src="images/small logo.png" alt="" />
+              <img
+                class="w-full lg:block hidden"
+                src="images/logo-header.png"
+                alt=""
+              />
             </div>
           </div>
           <div class="navbar-center hidden lg:flex">
@@ -70,10 +75,13 @@
             <div class="hidden gap-4 lg:flex justify-center items-center">
               <i class="fa-solid fa-magnifying-glass"></i>
               <i class="fa-solid fa-cart-shopping"></i>
-              <a class="btn w-28 border border-color-primary bg-transparent"
+              <a
+                class="btn w-28 border border-color-primary bg-transparent hover:bg-color-primary hover:text-white"
                 >Login</a
               >
-              <a class="btn bg-color-primary text-white w-36">Register</a>
+              <a class="btn bg-color-primary text-white w-36 hover:bg-[#102861]"
+                >Register</a
+              >
             </div>
             <div class="lg:hidden">
               <i class="text-2xl text-color-primary fa-solid fa-bars"></i>
@@ -117,7 +125,9 @@
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           <!-- card 1 -->
-          <div class="card w-full bg-color-secondary w-96">
+          <div
+            class="card w-full bg-color-secondary hover:bg-color-primary hover:text-white"
+          >
             <figure class="px-10 pt-10">
               <img
                 src="images/service.png"
@@ -128,13 +138,16 @@
             <div class="card-body items-center text-center">
               <h2 class="card-title">24/7 Services</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt
+                A grocery service provides convenient access to a wide range of
+                food and household essentials, either in-store or through online
+                platforms.
               </p>
             </div>
           </div>
           <!-- card 2 -->
-          <div class="card w-full bg-color-secondary w-96">
+          <div
+            class="card w-full bg-color-secondary hover:bg-color-primary hover:text-white"
+          >
             <figure class="px-10 pt-10">
               <img
                 src="images/delivery.png"
@@ -145,13 +158,15 @@
             <div class="card-body items-center text-center">
               <h2 class="card-title">Fast Delivery</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt
+                A fast delivery grocery service ensures quick and convenient
+                access to fresh food and household essentials.
               </p>
             </div>
           </div>
           <!-- card 3 -->
-          <div class="card w-full bg-color-secondary w-96">
+          <div
+            class="card w-full bg-color-secondary hover:bg-color-primary hover:text-white"
+          >
             <figure class="px-10 pt-10">
               <img
                 src="images/healthy.png"
@@ -162,8 +177,9 @@
             <div class="card-body items-center text-center">
               <h2 class="card-title">Healthy Products</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt
+                Healthy products are items made with natural, nutritious
+                ingredients that support overall well-being. They are often free
+                from harmful additives
               </p>
             </div>
           </div>
@@ -180,12 +196,14 @@
             class="flex flex-col lg:flex-row justify-between items-center bg-color-primary rounded-xl pt-8 px-4 md:px-10"
           >
             <div class="flex-1 space-y-5">
-              <button class="btn bg-[#63B76D] border-none text-white">
+              <button
+                class="btn bg-[#2A4D97] border-none text-white hover:bg-[#102861]"
+              >
                 Your Comfort is Our Business
               </button>
               <h2 class="text-3xl md:text-5xl text-white font-semibold">
                 We Bring
-                <span class="text-[#102861]"
+                <span class="text-[#39da5e] font-bold"
                   >the <br />
                   Store to</span
                 >
@@ -194,7 +212,9 @@
               <p class="text-white">
                 NOW! GET <span class="font-extrabold">25% OFF</span> ON ALL ITEM
               </p>
-              <button class="btn bg-[#63B76D] border-none text-white">
+              <button
+                class="btn bg-[#2A4D97] border-none text-white hover:bg-[#102861]"
+              >
                 Shop Now
               </button>
             </div>
